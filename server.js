@@ -106,6 +106,20 @@ async function seedProjects() {
   if (count === 0) {
     await Project.insertMany([
       {
+        title: 'Full Stack Development Internship',
+        description: 'Internship at Thiranex — working on full-stack web development tasks, building and integrating frontend and backend features as part of a real-world development team.',
+        tags: ['Internship', 'Full Stack', 'Node.js', 'HTML/CSS'],
+        emoji: '💼',
+        link: ''
+      },
+      {
+        title: 'Supply Chain & Inventory Optimization Dashboard',
+        description: 'An interactive Power BI dashboard that visualizes and optimizes supply chain operations and inventory management, enabling data-driven decisions through real-time analytics.',
+        tags: ['Power BI', 'Data Analytics', 'Dashboard'],
+        emoji: '📊',
+        link: ''
+      },
+      {
         title: 'Density of States Research',
         description: 'Co-authored physics research on electron–hole symmetry in organic semiconductors (DSDTT-1 & DSDTT-2) using the DOSP entropy-ruled charge transport method, supervised by Dr. K. Navamani at KPRIET.',
         tags: ['Research', 'Physics', 'Python'],
